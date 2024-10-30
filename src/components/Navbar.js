@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="top-bar"></div>
       <div className="header-bar">
         <h1 className="logo">
-          <Link to="/" className="link">Casilynzirui</Link>
+          <Link to="/" className="name">Casilynzirui</Link>
         </h1>
         <ul className="nav-links">
           <li>

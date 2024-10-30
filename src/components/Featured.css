@@ -1,0 +1,35 @@
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.featured-container {
+    display: flex; 
+    flex-direction: column; 
+    flex: 1; 
+    padding: 2rem;
+    background-color: var(--background-color); 
+    padding-top: 1.5rem;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+.threejs-logo {
+    animation: rotate 15s linear infinite; 
+    max-width: 55%; 
+    height: auto; 
+    padding-top: 2.5rem;
+
+}
+
+.description-text {
+    font-size: 20px;
+    font-family: var(--text-font);
+    color: var(--ascent-color);
+    font-style: italic;
+}

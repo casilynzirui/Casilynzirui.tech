@@ -1,71 +1,78 @@
 /* Navbar.css */
 .navbar {
     display: flex;
-    flex-direction: column; /* Stacks children vertically */
-    background: var(--background-color); /* Sets the background color */
+    flex-direction: column; 
+    background: var(--background-color); 
     height: auto;
 }
 
 .top-bar {
-    height: 40px; /* Set the height of the rectangle bar */
-    background-color: var(--ascent-color); /* Change to your desired color */
-    width: 100%; /* Full width */
-    margin-bottom: 10px; /* Space below the rectangle */
+    height: 40px; 
+    background-color: var(--ascent-color); 
+    width: 100%; 
+    margin-bottom: 10px; 
 }
 
 .header-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; /* Distributes space between logo and links */
-    align-items: center; /* Aligns items vertically */
-    margin-top: 10px; /* Space below the rectangle */
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 10px; 
 
 }
 
 .logo {
-    font-size: 24px; /* Set the font size of the logo */
-    margin-left: 40px; /* Right margin for spacing */
+    font-size: 24px; 
+    margin-left: 40px; 
     color: var(--text-color);
     font-family: var(--text-font);
 }
 
+.name {
+    font-size: 24px; 
+    margin-left: 40px; 
+    color: var(--background-color);
+    font-family: var(--text-font);
+}
+
 .nav-links {
-    list-style-type: none; /* Remove bullet points */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    display: flex; /* Flex display for the links */
-    gap: 35px; /* Space between links */
-    margin-right: 40px; /* Right margin for spacing */
-    align-items: center; /* Center items vertically */
-    height: 100%; /* Ensure it takes the full height of the navbar or header */
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    gap: 35px; 
+    margin-right: 40px; 
+    align-items: center; 
+    height: 100%; 
 }
 
 .link {
-    color: var(--text-color); /* Link color */
-    text-decoration: none; /* No underline for links */
+    color: var(--text-color); 
+    text-decoration: none; 
     font-family: var(--text-font);
-    font-size: 25px; /* Set the font size of the logo */
+    font-size: 20px; 
 }
 
 .resume-link {
-    background-color: var(--background-color); /* Background color */
-    color: var(--text-color); /* Text color */
-    padding: 12px 18px; /* Padding */
-    border-radius: 10px; /* Rounded corners */
+    background-color: var(--background-color); 
+    color: var(--text-color); 
+    padding: 12px 18px; 
+    border-radius: 10px; 
     border-color: var(--ascent-color);
     border-width: 2.5px;
     border-style: solid;
-    cursor: pointer; /* Cursor on hover */
-    transition: opacity 0.2s; /* Smooth transition */
-    display: inline-block; /* Makes it behave like a button */
+    cursor: pointer; 
+    transition: opacity 0.2s; 
+    display: inline-block; 
     font-family: var(--text-font);
-    font-size: 25px; /* Set the font size of the logo */
+    font-size: 20px; 
 }
   
 .resume-link.hovered {
-    opacity: 0.5; /* Reduced opacity on hover */
+    opacity: 0.5; 
 }
   
 .resume-link:active {
-    opacity: 0.25; /* Further reduced opacity on click */
+    opacity: 0.25; 
 }

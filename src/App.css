@@ -5,7 +5,17 @@
   --background-color: #FDFDFD;
   --text-color: #333333;
 
-  --text-font: 'Syne', sans-serif;
+  --text-font: 'Nunito', sans-serif;
+  --name-font: 'Lato', sans-serif;
+
 }
 
+.main-content {
+  display: flex; /* Use flexbox for the main content */
+}
 
+/*
+body {
+  background-color: var(--background-color);
+}
+  */
